@@ -1,0 +1,6 @@
+This repository contains a CI/CD pipeline for a Node.js application using GitHub Actions and Docker.
+The pipeline automatically checks out the code, sets up the Node.js environment, installs dependencies, runs tests, builds a Docker image, and pushes it to Docker Hub whenever code is pushed to the main branch. 
+The workflow uses GitHub secrets to securely manage Docker Hub credentials. The project includes a Dockerfile to build the image and a GitHub Actions workflow file that defines the automation steps. To use this project, clone the repo, configure your GitHub secrets for Docker credentials, and push changes to the main branch to trigger the pipeline. 
+This setup simplifies continuous integration and deployment of the Node.js app via Docker.
+
+ Developed by Poojitha Kasireddy.
